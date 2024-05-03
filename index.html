@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Simple expander</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RWV33XE7SE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-RWV33XE7SE');
+    </script>
+
+    <!-- Basic expander styles, typgraphy, fallback settings etc. -->
+    <link rel="stylesheet" href="css/expander/main.css">
+
+    <!-- Video module -->
+    <link rel="stylesheet" href="css/expander/video.css">
+
+    <!-- Slider module -->
+    <link rel="stylesheet" href="css/expander/slider.css">
+    <link rel="stylesheet" href="css/vendor/tiny-slider.css">
+
+    <!-- Custom design shall be adjusted within this file. -->
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+
+ <!-- add that .expander-background changes background-image: url(../assets/HG_1.jpg); to a different one for each btn-blue(1) btn-grey(2) btn-red(3) btn-green(4)when clicked
+-->
+
+
+
+  <body>
+    
+    <div class="expander">
+
+      <button class="scroll-down-button"><span>Scroll down</span></button>
+
+      <section class="expander-video">
+        <!-- data-volume-half -->
+        <video autoplay playsinline muted>
+          <source type="video/mp4" src="assets/video.mp4">
+        </video>
+      </section>
+
+      <div class="expander-background">
+
+        <header class="header">
+          <span class="logo">
+            <img src="assets/logo.png" width="300">
+          </span>
+        </header>
+
+        <!-- here is the text element for change: -->
+        <div class="slogan">
+
+          <h1 id="slogan-1">Verwandle jeden Start in Spaß:</h1>
+          <h1 id="slogan-2">Denk bei jedem Auftritt „Ätsch“:</h1>
+          <h1 id="slogan-3">Mach die Stadt zu deinem Spielplatz:</h1>
+          <h1 id="slogan-4">Spiel „4 gewinnt“ mit jedem Untergrund:</h1>
+
+        </div>
+        <!-- end for change: -->
+
+        <div class="car-info">
+          <img src="assets/FLASH.png">
+        </div>
+
+        <!-- here is the car element for change: -->
+
+        <div class="main-car">
+
+          <img id="car-1" src="assets/cars/car_1_blue.png">
+          <img id="car-2" src="assets/cars/car_2_grey.png">
+          <img id="car-3" src="assets/cars/car_3_red.png">
+          <img id="car-4" src="assets/cars/car_4_green.png">
+          
+        </div>
+
+        <!-- end for change: -->
+
+        <div class="car-description">
+
+            <div class="des-heading">
+              <div class="des-sub-head">
+                <h2>Der neue</h2> 
+              </div>
+              <img src="assets/Logo-SWIFT.png">
+            </div>
+
+            <!-- Paragraph for chage: -->
+            <div class="des-par">
+              <p id="text-1"> 
+                <span class="bold-text" style="font-weight: bold;">
+                mit drehfreudigem und sparsamem 1.2-Liter Mild-Hybrid-Motor
+                </span>
+                sorgt für jede Menge Fahrspaß und verbessert spielend leicht ihre CO₂-Bilanz. Sein neues Design und viele innovative Sicherheitsfunktionen machen ihn 
+                zum perfekten Spielkameraden in jeder Verkehrssituation. Optional mit 
+                Allradsystem ALLGRIP AUTO. Wer hätte das gedacht! <br>
+                <span class="spacer"></span>            
+                Verbrauch „kombiniert“: 4,4-4,9 l/100 km <br>
+                CO₂-Emission 98-110 g/km2 
+              </p>
+              <p id="text-2"> 
+                in neuem Design macht Spaßbremsen im Handumdrehen neidisch. 
+                Seine klaren Linien, seine verspielte Farbpalette und sein komfortabler 
+                Innenraum machen Lust auf mehr. Komplettiert durch den drehfreudigen 
+                und sparsamen 1.2-Liter Mild-Hybrid-Motor, modernste Sicherheitsfunktionen 
+                und das optionale Allradsystem ALLGRIP AUTO. Wer hätte das gedacht!  
+                
+                Verbrauch „kombiniert“: 4,4-4,9 l/100 km
+                CO₂-Emission 98-110 g/km2)
+              </p>
+              <p id="text-3"> 
+                mit modernsten Sicherheitsfunktionen macht enge Gassen und lange 
+                Strecken zum Kinderspiel – zum Beispiel dank Spurhalte-Assistent, 
+                Müdigkeitssensor oder adaptiver Geschwindigkeitsregelung. Auch für jeden 
+                Spaß zu haben: der agile und sparsame 1.2-Liter Mild-Hybrid-Motor, das neue Design und das optionale Allradsystem ALLGRIP AUTO. Wer hätte das gedacht!  Verbrauch „kombiniert“: 4,4-4,9 l/100 km
+                CO₂-Emission 98-110 g/km2)
+              </p>
+              <p id="text-4"> 
+                mit optionalem ALLGRIP AUTO Allradsystem ist der perfekte Spielkamerad 
+                auf jedem Untergrund. Es schaltet sich automatisch ein und sorgt so für 
+                zusätzliche Traktion auf den Hinterrädern. Volle Punktezahl gibt es auch für 
+                den leistungsstarken und sparsamen 1.2-Liter Mild-Hybrid-Motor, das neue 
+                Design und modernste Sicherheitsfunktionen. Wer hätte das gedacht!  
+
+                Verbrauch „kombiniert“: 4,4-4,9 l/100 km
+                CO₂-Emission 98-110 g/km2)
+              </p>
+
+            </div>
+             <!-- end for change: -->
+
+            <!-- The button for chage:  -->
+            <div class="des-button">
+
+              <div class="button-txt">
+                <h3>Alle Infos</h3> 
+              </div>
+
+              <div class="button-img">
+                <svg viewBox="0 0 67 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M44 2L64 22M64 22L44 42M64 22H0"  stroke-width="3"/>
+                </svg>
+              </div>
+
+            </div>
+             <!-- end for change: -->
+
+          <div class="des-end">
+            <p>Farbe wechseln:</p>
+          </div>
+
+        </div>
+
+        <div class="all-buttons">
+          <button id="btn-blue">
+            <img id="btn-blue" src="assets/choice/blue.jpg">
+          </button>
+          <button id="btn-grey">
+            <img id="btn-grey" src="assets/choice/grey.jpg">
+          </button>
+          <button id="btn-red">
+            <img id="btn-red" src="assets/choice/red.jpg">
+          </button>
+          <button id="btn-green">
+            <img id="btn-green" src="assets/choice/green.jpg">
+          </button>
+        </div>
+
+        <div class="section centered footer-txt footer-img">
+          <!-- <a href="https://showheroes.com/" target="_blank" class="cta">Read more ></a> -->
+          <img src="assets/Logo-Hybrid.png">
+        </div>
+
+        <div class="section centered footer-txt">
+          <!-- <a href="https://showheroes.com/" target="_blank" class="cta">Read more ></a> -->
+          <p>1) Unverbindlich empfohlener Richtpreis abzüglich € 500,- 1st Edition Bonus, € 1.000,- Finanzierungsbonus und € 500,- Versicherungsbonus, 20% MwSt. und NoVA sowie inkl. der Maximalbeträge 
+            für §6a NoVAG – Ökologisierungsgesetz. Die 1st Edition besteht aus 1st Edition Dekor (Badge auf der B-Säule, Einstiegsleisten, Streifendekor; alles auf Fahrer- und Beifahrerseite, inkl. Montage), 
+            1st Edition Badetuch, Suzuki Badetasche, 1st Edition Frisbee. Finanzierungsbonus gültig bei Abschluss einer Finanzierung über Suzuki Finance – ein Geschäftsbereich der Toyota Kreditbank GmbH Zweigniederlassung Österreich. Versicherungsbonus gültig bei Abschluss einer Versicherung über GARANTA Österreich Versicherungs-AG. Angebot gültig solange der Vorrat reicht, bei allen teil-
+            nehmenden Suzuki Händlern. 2) WLTP-geprüft. Druckfehler, Irrtümer und Änderungen vorbehalten. Symbolfotos. Mehr Informationen auf www.suzuki.at oder bei Ihrem Suzuki Händler.</p>
+        </div>
+
+      </div>
+
+
+      <!-- <a class="sticky-cta" href="https://showheroes.com/" target="_blank">
+        Visit us >
+      </a> -->
+
+
+    </div>
+
+    <!-- Video module -->
+    <script src="js/video.js"></script>
+
+    <!-- Slider module -->
+    <script src="js/vendor/tiny-slider.js"></script>
+    <script src="js/slider.js" defer></script>
+    <script src="js/scrollDown.js" defer></script>
+
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
+

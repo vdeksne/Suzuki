@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+
+@font-face {
+    font-family: "SuzukiPROBold";
+    src: url("/dist/assets/fonts/ba269321af23504cb15522705f83949e.woff2") format("woff2");
+  }
+
+@font-face {
+font-family: "SuzukiPRORegular";
+src: url("/dist/assets/fonts/0d4eb760fb6617be0274db71c0ad646d.woff2") format("woff2");
+}
+  
+
+:root {
+    --color-main: #0b3144;
+    --color-secondary: #00ffae;
+    --color-text: #666;
+    --color-background: #fff;
+
+
+
+    --padding-base: 2.5rem;
+}
+html {
+    font-family: 'Afacad', sans-serif;
+    /* font-weight: 300; */
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.heading {
+    font-size: 2.5rem;
+}
+.lead {
+    width: 40rem;
+    max-width: 100%;
+}
+.subheading {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.title {
+    color: #E88C74;
+}
+
+.my-custom-slider {
+    margin-top: 3rem;
+}
+.my-custom-slider .title {
+    margin: 1rem 0 .5rem;
+}
+
+.expander-background {
+    /* background-image: url(../assets/HG_1.jpg); */
+    background-image: url(../assets/HG_1.jpg);
+    height: 102.75rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    transition: background-image 0.3s ease-in-out;
+}
+.car-info {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 5.4375rem;
+
+}
+.car-info img {
+    width: 12.5625rem;
+    height: 8.25rem;
+}
+.logo {
+    width: 18.75rem;
+    height: 3.5625rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.main-car {
+    display: flex;
+    justify-content: center;
+    margin-top: -2rem;
+    width: 100%;
+}
+
+.main-car img {
+
+    width: 55.1875rem;
+    height: 29.75rem;
+}
+
+.car-description {
+    color: #fff;
+    margin-left: 23.3125rem;
+    width: 38rem;
+    margin-top: 2.5rem;
+}
+.des-heading {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 0.6rem;
+}
+.des-heading h2 {
+    display: grid;
+    align-items: flex-end; /* This aligns the text vertically */
+    font-size: 2.125rem;
+    font-family: "SuzukiPROBold", sans-serif;
+
+}
+.des-heading img {
+    width: 15.6875rem;
+    height: 2.3125rem;
+    margin-bottom: 0.4rem;
+    margin-left: 0.3rem;
+}
+
+.des-par {
+    width: 38.125rem;
+    height: 11.75rem;
+    font-size: 1.125rem;
+    font-family: "SuzukiPRORegular", sans-serif;
+
+}
+
+.spacer {
+    display: block;
+    margin-top: 1em; /* Creates the equivalent of two line spaces */
+}
+
+.des-button {
+    width: 18.375rem;
+    height: 6.375rem;
+    border-radius: 3.125rem;
+    display: flex;
+    padding: 1rem 2.6rem;
+    border: 0.3rem solid #FFD742;
+    stroke: #FFD742;
+    color: #FFD742;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "SuzukiPROBold", sans-serif;
+    font-size: 1.6875rem;
+    margin-top: 3rem;
+}
+
+.des-button h3 {
+    font-size: 1.6875rem;
+}
+
+.button-img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.des-end {
+    margin-top: 4rem;
+    font-size: 1.125rem;
+    font-family: "SuzukiPRORegular", sans-serif;
+
+}
+
+.footer-txt {
+    font-size: 0.5rem;
+    font-family: "SuzukiPRORegular", sans-serif;
+    color: #ffffff79;
+    margin: 0 2.5rem;
+    padding: 0;
+    line-height: 125.1%; /* 0.89919rem */
+}
+
+.footer-txt img {
+    width: 9.5rem;
+    height: 1.6875rem;
+    position: relative;
+    right: 0;
+}
+
+.footer-img {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.button-img svg {
+    width: 4rem;
+    height: 2.5rem;
+}
+
+/* Start of change responsiveness: */
+
+#slogan-2 {
+    display: none;
+}
+#slogan-3 {
+    display: none;
+}
+#slogan-4 {
+    display: none;
+}
+#car-2 {
+    display: none;
+}
+#car-3 {
+    display: none;
+}
+#car-4 {
+    display: none;
+}
+#text-2 {
+    display: none;
+}
+#text-3 {
+    display: none;
+}
+#text-4 {
+    display: none;
+}
+
+.btn-green {
+    width: 14.6875rem;
+    height: 9.75rem;
+}
+
+.btn-green {
+    display: block;
+} 
+.all-buttons {
+    display: flex;
+}
+.all-buttons {
+    margin: 2.5rem;
+    gap: 2rem;
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 50vw;
+        height: auto;
+    }
+    .header .cta {
+        margin-top: 3.333vw;
+    }
+    .car-description {
+        width: 100vw;
+        margin-left: 2rem;
+    }
+    .slogan {
+        width: 100vw;
+        margin-left: 0;
+    }
+    .des-par {
+        width: 100%;
+        height: 14rem;
+        font-size: 1rem;
+    }
+    .main-car img {
+        width: 100vw;;
+        height: auto;
+    }
+    .car-description {
+        width: 100vw;
+        /* margin-left: 2rem;
+        margin-right: 2rem; */
+        margin: 0;
+        padding: 2rem;
+    }
+    .image {
+        display: flex;
+        justify-content: center;
+    }
+    .image img {
+        width: 100%;
+    }
+    .slogan {
+        font-size: 3.333vw;
+    }
+    h1, .heading {
+        font-size: 2rem;
+        line-height: 106.3%;
+        color: #fff;
+    }
+    .des-heading h2 {
+        font-size: 6.667vw;
+    }
+    .des-heading img {
+        width: 52.292vw;
+        height: 7.708vw;
+        margin-bottom: 0.4rem;
+        margin-left: 0.3rem;
+    }
+    .des-par p {
+        font-size: 3.333vw;
+    }
+    .des-button {
+        width: 61.25vw;
+        height: 21.25vw;
+        border-radius: 10.417vw;
+        padding: 3.333vw 8.667vw;
+        border: 0.5vw solid #FFD742;
+        font-size: 5.625vw;
+        margin-top: 10vw;
+    }
+    .des-button h3 {
+        font-size: 5.625vw;
+    }
+    .button-img svg {
+        width: 13.333vw;
+        height: 8.333vw;
+    }
+    .footer-img {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 16.667vw;
+        margin-bottom: 3vw;
+    }
+    .footer-txt {
+        margin-top: 11vw;
+    }
+    .car-info img {
+        width: 41.875vw;
+        height: 27.5vw;
+    }
+
+    .car-info {
+        padding-right: 0;
+    }
+    .all-buttons {
+        flex-direction: column;
+    }
+
+    .expander-background {
+        height: 133rem;
+    }
+}
+
+@media (min-width: 481px) {
+    .heading {
+        font-size: 3rem;
+    }
+}
